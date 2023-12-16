@@ -1,0 +1,56 @@
+# Node
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Gradle
+.gradle
+
+# Java
+.classpath
+
+# Python
+*.pyc
+__pycache__/
+
+# vscode
+.vscode/
+web-build/
+dist/
+
+# IDEA / IntelliJ
+.idea/
+out/
+
+# Eclipse IDE
+.project
+bin/
+
+# MacOS
+.DS_Store
+
+# all logs file 
+**/*.log
+
+# db log file from all the folders would be ignored
+**/*.db
+
+# ignore chromedriver.exe file, .msi files and .zip files
+**/*chromedriver.exe
+**/*.msi
+**/*.zip
+
+# ignore download folders
+**/Downloads/
+**/Test_Downloads/
+**/database_txt_file/
+
+# ignore temp files and .txt files
+**/*.tmp
+**/*.txt
